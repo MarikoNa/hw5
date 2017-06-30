@@ -44,7 +44,7 @@ public class Tsp {
         }
     }
  
-    public static void makeRoute() { //最も近いものを選んで道を決めていくメソッド
+    public static void makeRoute() { 
         double minDistance = Double.MAX_VALUE;
         int xMin = 0;
         int yMin = 0;
